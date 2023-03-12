@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Vide Web</title>
+  </head>
+  <body>
+    <h1>Ubuntu ARM, mostrar las conexiones de red</h1>
+    <div class="contenedor">
+      <figure>
+        <div class="video-fluid" >
+          <video
+            width="560"
+            height="315"
+            class="video-fluid-item"
+            poster = "videos/imagenNetwork.png"
+            controls
+            aria-label="video donde se explica como hacer que aparezca la conexion de red en la maquina virtual UTM donde se ha instalado Ubuntu ARM, para ello situandonos el directorio /etc/netplan/ ejecutamos sudo 00-installer-config.yaml para configurarlo. Justo debajo de la linea de network: con una tabulacion de separación, escribiremos renderer: NetworkManager. Guardamos y salimos. Ahora ejecutamos, sudo netplan generate para crear el backup, si no sale ningun error esta bien, seguido ejecutamos, sudo netplan apply, y ahora en la esquina superior derecha aparecera el icono de redes y si ponemos el raton sobre el aparecera cableado conectada y desde aquí podremos entrar en la configuración de la red cableada."
+            >
+            <source src="./videos/NetWorkManager.mp4" type="video/mp4" />
+            <source src="./videos/NetworkManager.webm" type="video/webm" />
+            <source src="videos/NetWorkManager.3gp" type="video/3gp" />
+            <track
+              src="./videos/SubtituloNetworkManager.vtt"
+              kind="subtitles"
+              srclang="es"
+              label="Español"
+              default
+            />
+            <img src="./videos/imagenNetwork.png" alt="Video no soportado" />
+            Su navegador no soporta contenido multimedia.
+          </video>
+        </div>
+        <figcaption>Create and design by Jorge Camacho</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
