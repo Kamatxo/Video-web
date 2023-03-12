@@ -6,4 +6,4 @@ _Jorge Camacho Ochoa_,
 _[sobre mi](https://kamatxo.github.io/Curriculum-Vitae/)_
 --
 ## Página
-_[Ver página](https://kamatxo.github.io/Lenguajes-Front-end/)_
+_[Ver página](https://kamatxo.github.io/Video-web/)_
